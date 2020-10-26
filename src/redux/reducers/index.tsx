@@ -1,6 +1,9 @@
 import { combineReducers } from 'redux';
+import ItrSnackBarReducer from './ItrSnackBarReducer';
 
-const rootReducer = combineReducers({});
+const rootReducer = combineReducers({
+  snackBar: ItrSnackBarReducer,
+});
 
 export default rootReducer;
 
